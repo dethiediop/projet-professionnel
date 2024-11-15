@@ -1,0 +1,149 @@
+/* Réinitialisation des marges et paddings */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #333;
+     color: #fff;
+     padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Styles pour le menu de navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les sections */
+section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Style pour le bouton */
+.button {
+    display: inline-block;
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #4cae4c;
+}
+
+/* Style pour le footer */
+footer {
+    background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+margin-top: 20px;
+font-size: 0.9rem;
+}
+
+.line li{
+    line-height: 50px;
+}
+
+/* Styles des images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Alignement et taille des images */
+img.left {
+    float: left;
+    margin-right: 20px;
+    width: 400px; 
+    height: 200px;
+}
+
+img.right {
+    float: right;
+    margin-left: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
